@@ -1,5 +1,7 @@
+import StarCanvas from "@/components/main/StarBackground";
 import Hero from "@/components/main/hero";
 import Image from "next/image";
+import NavBar from "@/components/main/NavBar";
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
           <source src="/blackhole.webm" type="video/webm"/> 
         </video> */}
       </div>
-      
+
     </main>
   );
 }
