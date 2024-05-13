@@ -21,7 +21,7 @@ const NavBar = () => {
               />
     
               <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-                WebChain Dev
+                My Portfolio
               </span>
             </a>
     
@@ -35,6 +35,9 @@ const NavBar = () => {
                 </a>
                 <a href="#projects" className="cursor-pointer">
                   Projects
+                </a>
+                <a href="#about-me" className="cursor-pointer">
+                  Blogs
                 </a>
               </div>
             </div>
